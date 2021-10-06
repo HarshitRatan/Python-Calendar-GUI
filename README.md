@@ -1,5 +1,5 @@
-# QRcode_Generator
-# Code by Harshit Ratan Shukla
+# GUI based Python Calender
+Code by Harshit Ratan Shukla.
 This GUI based Script will show all the calendar of Each and Every year which you want.
 
 
