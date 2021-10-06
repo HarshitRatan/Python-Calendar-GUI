@@ -1,4 +1,3 @@
-#Code By Harshit Ratan Shukla
 from tkinter import *
 import tkinter as tk
 import calendar
@@ -14,6 +13,8 @@ root.resizable(False, False)
 def show():
     cal.delete(1.0, 'end')
     mon = int(month.get()) #Getting Months From User
+    if(mon > 12):
+     cal.insert('end' , "You had Entered Wrong Month Code.")
     yr = int(year.get()) #Getting Year From User
     Cal_data = calendar.month(yr, mon)
 
